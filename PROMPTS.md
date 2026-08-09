@@ -395,7 +395,3 @@ All AI-generated content is reviewed and validated by the development team.
 | **Project Repository** | https://github.com/Tanishka-lab/ai-interview-agent |
 | **AI Usage Log** | https://github.com/Tanishka-lab/ai-interview-agent/blob/main/AI_USAGE_LOG.md |
 
----
-
-**Prompts Created: August 2026**
-**For: AI Cohort Hackathon**
