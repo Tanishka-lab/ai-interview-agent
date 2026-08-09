@@ -94,10 +94,10 @@ The agent tracks which curriculum days are covered during the interview:
 - **Minimum requirement:** 4 different days
 - Day tracker shows progress in real-time
 - AI explicitly references day numbers in questions
+- 
+## 📁 Project Structure
 
-📁 Project Structure
-
-\`\`\`
+```
 ai-interview-agent/
 ├── backend/
 │   ├── main.py                  # FastAPI server
@@ -121,4 +121,4 @@ ai-interview-agent/
 │   └── app.js                   # Frontend logic
 ├── AI_USAGE_LOG.md              # AI usage documentation
 └── README.md                    # This file
-\`\`\`
+```
