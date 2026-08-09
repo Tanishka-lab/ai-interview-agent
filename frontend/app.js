@@ -2,7 +2,8 @@
 // AI INTERVIEW AGENT - FRONTEND LOGIC
 // ========================================
 
-const API_URL = 'http://localhost:8000/api/interview';
+//const API_URL = 'http://localhost:8000/api/interview';
+const API_URL = 'https://ai-interview-agent-1-vhon.onrender.com/api/interview';
 let sessionId = 'session-' + Date.now();
 let questionCount = 0;
 const MAX_QUESTIONS = 8;
