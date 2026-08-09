@@ -2,7 +2,7 @@
 
 # 🎯 AI Interview Agent
 
-An intelligent technical interview agent that conducts personalized interviews based on a candidate's AI learning journey. Built for the AI Cohort Hackathon.
+An intelligent technical interview agent that conducts personalized interviews based on a candidate's AI learning journey. Built for Vicodathon by team Codifiers. 
 
 ---
 ## 🚀 Live Demo
@@ -81,6 +81,7 @@ The **AI Interview Agent** is a full-stack application that conducts realistic, 
 ```bash
 git clone https://github.com/Tanishka-lab/ai-interview-agent.git
 cd ai-interview-agent
+
 2. Set Up Backend
 bash
 cd backend
@@ -89,16 +90,19 @@ python -m venv venv
 # Activate virtual environment
 # Windows:
 venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
+
 
 # Install dependencies
 pip install -r requirements.txt
+
+
 3. Add API Key
 Create a .env file in the backend/ folder:
 
 text
 GOOGLE_API_KEY=your-api-key-here
+
+
 4. Run the Backend
 bash
 python main.py
@@ -107,13 +111,8 @@ Server runs at: http://localhost:8000
 5. Open Frontend
 Open frontend/index.html in your browser.
 
-6. Deploy to Vercel (Optional)
-bash
-# Install Vercel CLI
-npm i -g vercel
+6. Deploy to Render 
 
-# Deploy
-vercel --prod
 ⚙️ How It Works
 Interview Flow
 Select Candidate - Choose from 20 AI cohort participants
