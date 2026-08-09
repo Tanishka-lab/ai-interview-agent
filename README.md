@@ -22,7 +22,6 @@ The frontend is deployed as a Render Static Site and communicates with the deplo
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Live Demo](#live-demo)
 - [Setup Instructions](#setup-instructions)
 - [How It Works](#how-it-works)
 - [Project Structure](#project-structure)
