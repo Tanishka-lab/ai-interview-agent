@@ -5,6 +5,18 @@
 An intelligent technical interview agent that conducts personalized interviews based on a candidate's AI learning journey. Built for the AI Cohort Hackathon.
 
 ---
+## 🚀 Live Demo
+
+### 🌐 Deployed Application
+**[https://ai-interview-agent-2.onrender.com](https://ai-interview-agent-2.onrender.com)**
+
+The frontend is deployed as a Render Static Site and communicates with the deployed FastAPI backend.
+
+### ⚙️ Backend API
+**[https://ai-interview-agent-1-vhon.onrender.com](https://ai-interview-agent-1-vhon.onrender.com)**
+
+---
+
 
 ## 📋 Table of Contents
 - [Overview](#overview)
