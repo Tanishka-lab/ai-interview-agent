@@ -8,7 +8,7 @@ An intelligent technical interview agent that conducts personalized interviews b
 ## 🚀 Live Demo
 
 ### 🌐 Deployed Application
-**[https://ai-interview-agent-2.onrender.com](https://ai-interview-agent-2.onrender.com)**
+**[https://ai-interview-agent-2-5g7w.onrender.com/](https://ai-interview-agent-2-5g7w.onrender.com/)**
 
 The frontend is deployed as a Render Static Site and communicates with the deployed FastAPI backend.
 
