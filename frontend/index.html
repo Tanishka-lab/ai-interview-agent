@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Interview Agent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🎯</div>
+                    <div>
+                        <h1>AI Interview</h1>
+                        <span class="subtitle">Technical Assessment Platform</span>
+                    </div>
+                </div>
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Live
+                </div>
+            </div>
+        </header>
+
+        <!-- Controls Bar -->
+        <div class="controls-bar">
+            <div class="candidate-selector">
+                <label for="candidateSelect">👤 Candidate</label>
+                <select id="candidateSelect">
+                    <!-- Populated by JavaScript -->
+                </select>
+            </div>
+            <div class="action-buttons">
+                <button id="startNewBtn" class="btn-primary">🔄 New Interview</button>
+                <button id="endInterviewBtn" class="btn-secondary" disabled>⏹ End Interview</button>
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Questions</span>
+                <span class="stat-value" id="progressText">0 / 8</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Days Covered</span>
+                <span class="stat-value" id="dayCount">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Status</span>
+                <span class="stat-value" id="statusText">Ready</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width:0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area" id="chatArea">
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <div class="welcome-icon">🤖</div>
+                    <h3>Ready to Begin</h3>
+                    <p>Select a candidate and start the interview. The AI will adapt questions based on their learning journey.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <div class="input-wrapper">
+                <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Type your answer here..."
+                    disabled
+                />
+                <button id="sendBtn" disabled>
+                    <span>Send</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="input-hint">
+                <span>Press <kbd>Enter</kbd> to send</span>
+                <span id="questionCounter">Question 0 of 8</span>
+            </div>
+        </div>
+
+        <!-- Feedback Modal -->
+        <div class="feedback-overlay" id="feedbackOverlay">
+            <div class="feedback-modal">
+                <button class="feedback-close" onclick="closeFeedback()">✕</button>
+                <div class="feedback-header">
+                    <div class="feedback-icon">📋</div>
+                    <h2>Interview Report</h2>
+                    <p>Detailed analysis of candidate performance</p>
+                </div>
+                <div class="feedback-body" id="feedbackBody">
+                    <!-- Dynamic content -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
