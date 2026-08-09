@@ -60,16 +60,6 @@ The **AI Interview Agent** is a full-stack application that conducts realistic, 
 
 ---
 
-## 🌐 Live Demo
-
-- **Frontend:** [https://ai-interview-agent.vercel.app](https://ai-interview-agent.vercel.app)
-- **Backend API:** [https://ai-interview-agent.onrender.com](https://ai-interview-agent.onrender.com)
-- **API Documentation:** [https://ai-interview-agent.onrender.com/docs](https://ai-interview-agent.onrender.com/docs)
-
-> **Note:** Replace these URLs with your actual deployed URLs after deployment.
-
----
-
 ## 🚀 Setup Instructions
 
 ### Prerequisites
