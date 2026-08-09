@@ -95,27 +95,28 @@ The agent tracks which curriculum days are covered during the interview:
 - Day tracker shows progress in real-time
 - AI explicitly references day numbers in questions
 
-## 📁 Project Structure
+📁 Project Structure
+
 \`\`\`
 ai-interview-agent/
 ├── backend/
-│   ├── main.py                 # FastAPI server
-│   ├── requirements.txt        # Python dependencies
-│   ├── .env                    # Environment variables (API key)
+│   ├── main.py                  # FastAPI server
+│   ├── requirements.txt         # Python dependencies
+│   ├── .env                     # Environment variables (API key)
 │   ├── data/
-│   │   ├── curriculum.json     # 31-day AI curriculum
-│   │   └── candidates.json     # 20 candidate profiles
+│   │   ├── curriculum.json      # 31-day AI curriculum
+│   │   └── candidates.json      # 20 candidate profiles
 │   ├── models/
-│   │   ├── schemas.py          # Pydantic models
-│   │   └── interview_state.py  # State management
+│   │   ├── schemas.py           # Pydantic models
+│   │   └── interview_state.py   # State management
 │   ├── services/
-│   │   ├── session_manager.py  # Session storage
-│   │   ├── data_loader.py      # JSON data loading
-│   │   └── ai_integration.py   # Google Gemini integration
+│   │   ├── session_manager.py   # Session storage
+│   │   ├── data_loader.py       # JSON data loading
+│   │   └── ai_integration.py    # Google Gemini integration
 │   └── routes/
-│       └── interview.py        # /api/interview endpoint
+│       └── interview.py         # /api/interview endpoint
 ├── frontend/
-│   ├── index.html              # Main UI
+│   ├── index.html               # Main UI
 │   ├── style.css                # Styling
 │   └── app.js                   # Frontend logic
 ├── AI_USAGE_LOG.md              # AI usage documentation
